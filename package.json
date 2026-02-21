@@ -1,0 +1,12 @@
+{
+  "name": "repo-security-scanner",
+  "version": "1.0.0",
+  "description": "Lightweight security scanner for hardcoded secrets and misconfigurations",
+  "main": "lib/scanner.js",
+  "bin": { "repo-scan": "./bin/cli.js" },
+  "scripts": { "test": "node test/test.js" },
+  "keywords": ["security", "secrets", "scanning", "audit", "vulnerability"],
+  "author": "hussain-alsaibai",
+  "license": "MIT",
+  "engines": { "node": ">=16.0.0" }
+}
